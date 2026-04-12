@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>POSITION</title>
+</head>
+<body>
+    <header>
+          <nav>
+            <a href="./index.html">Inico</a>
+            <a href="">Elementos</a>
+            <a href="">Positon</a>
+            <a href="">Flex box</a>
+            <a href="">Contactos</a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h1>PRACTICA HTML Y CSS</h1>
+        </section>
+        <section class="contenedor">
+            <h2>Tipos de posicionamientos</h2>
+            <p>
+                La propiedad position de CSS especifica cómo un elemento es posicionado en el documento. Las propiedades top, right, bottom, y left determinan la ubicación final de los elementos posicionados.
+            </p>
+            <p>
+                Un elemento posicionado es un elemento cuyo valor computado de position es relative, absolute, fixed, o sticky. (En otras palabras, cualquiera excepto static).
+            </p>
+            <p>
+                Un elemento posicionado relativamente es un elemento cuyo valor computado de position es relative. Las propiedades top y bottom especifican el desplazamiento vertical desde su posición original; las propiedades left y right especifican su desplazamiento horizontal.
+            </p>
+            <p>
+                Un elemento posicionado absolutamente es un elemento cuyo valor computado de position es absolute o fixed. Las propiedades top, right, bottom, y left especifican el desplazamiento desde los bordes del bloque contenedor del elemento. (El bloque contenedor es el ancestro relativo al cual el elemento está posicionado). Si el elemento tiene márgenes, se agregarán al desplazamiento. el elemento establece un nuevo contexto de formato de bloque para su contenido
+
+            </p>
+            <p>
+                Un elemento posicionado fijamente es un elemento cuyo valor de position computado es sticky. Es tratado como un elemento posicionado relativamente hasta que su bloque contenedor cruza un límite establecido (como por ejemplo dando a top cualquier valor distinto de auto), dentro de su flujo principal (o el contenedor dentro del cual se mueve), desde el cual es tratado como "fijo" hasta que alcance el borde opuesto de su bloque contenedor.
+            </p>
+            <article class="ContenedorPrincipal">
+            <div class="caja" id="cajaAzul">caja 1</div>
+            <div class="caja" id="cajaAmarilla">caja 2</div>
+            <div class="caja" id="cajaRoja">caja 3</div>
+            </article>
+                
+        </section>
+    </main>
+    <footer>
+        @todos los derechos reservados
+    </footer>
+    
+</body>
+</html>
